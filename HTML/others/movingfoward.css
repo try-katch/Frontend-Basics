@@ -1,0 +1,23 @@
+.blue-box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(7, 60, 235);
+    border: 150px solid rgb(0, 116, 0);
+}
+
+button {
+   border: none;
+   padding: 10px;
+   font-size: 20px; 
+   color: white;
+   background-color: #0e3386;
+   cursor: pointer;
+}
+
+button:hover {
+    background-color: #041e42;
+}
+
+
+
+

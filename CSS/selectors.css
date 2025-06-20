@@ -1,0 +1,14 @@
+/*ID Selector*/
+#happy-cake{
+    color: red;
+}
+
+/*Class Selector*/
+.module {
+    color: blue;
+}
+
+/*Tag Selector*/
+h2 {
+    color:pink
+}

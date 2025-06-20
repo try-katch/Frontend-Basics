@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg");
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    margin-inline: auto;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(254, 106, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.timing-box {
+    margin-top: -30px;
+    text-align: center;
+}
+
+.center-this {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+

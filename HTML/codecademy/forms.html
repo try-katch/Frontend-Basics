@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="forms.html" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="student_name" placeholder="Name">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="student_email" placeholder="name@example.com">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="student_password" placeholder="*******">
+
+        <label>Age</label>
+        <input type="radio" id="under_16" name="user_age"> 
+        <label for="under_16" class="light">Under 16</label>
+        <input type="radio" id="over_16" name="user_age">
+        <label for="under_16" class="light">Over 16</label>
+
+        <label for="bio">Biography</label>
+        <textarea name="student_bio" id="bio"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        <select name="courses" id="student_courses">
+            <optgroup label="Engineering">
+                <option value="computer_engineering">Computer Science Engineering</option>
+                <option value="eletrical_engineering">Eletrical Engineering</option>
+                <option value="mechanical_engineering">Mechanical Engineering</option>
+                <option value="civil_engineering">Civil Engineering</option>
+                <option value="chemical_engineering">Chemical Engineering</option>
+            </optgroup>
+
+            <optgroup label="Management">
+                <option value="finance_management">Finance Management</option>
+                <option value="technology_management">Technology</option>
+                <option value="marketing_management">Marketing</option>
+                <option value="business_administration">Business</option>     
+            </optgroup>
+            
+        </select>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="engineering" value="interest_engineering" name="user_interest">
+        <label class="light" for="engineering">Engineering</label>
+        <input type="checkbox" id="business" value="interest_business" name="user_interest">
+        <label class="light" for="business">Law</label>
+        <input type="checkbox" id="law" value="interest_law" name="user_interest">
+        <label class="light" for="law">Law</label>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

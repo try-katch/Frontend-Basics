@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 20px;
+            text-align: justify;
+            border-radius: 10px;
+            box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.424);
+
+        }
+        nav {
+            background-color: gray;
+            padding: 3px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.462);
+        }
+
+        h1 {
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        section > article {
+            background-color: rgb(228, 228, 228);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            font-style: italic;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article > aside {
+            display: inline;
+            background-color: rgb(176, 176, 176);
+            font-style: italic;
+        }
+
+        #assunto {
+            color: gray;
+            font-style: italic;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <nav>
+            <a href="">Link 01</a>
+            <a href="">Link 02</a>
+            <a href="">Link 03</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assunto">
+            <p>Esportes Politíca Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias aleatórias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam molestias error obcaecati vel ut tenetur, expedita non beatae unde ducimus! Ex enim ullam repudiandae unde esse aliquid quibusdam sequi optio!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit dolor. Animi aliquid deleniti sapiente? Ipsum, non veniam saepe dicta id odio molestias, excepturi blanditiis repudiandae optio reiciendis temporibus deleniti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellat excepturi sed sit consequatur? Molestiae minima veniam fuga accusamus commodi tempore expedita quidem voluptas, cumque asperiores ex nulla ut ratione.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis mollitia inventore voluptate enim voluptates sequi distinctio iste molestias ipsa. Doloribus culpa dolorum illo accusantium quam voluptatem ad, vel accusamus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut libero temporibus sed cum? Obcaecati ducimus esse odit, iusto sequi ad porro? Iure, explicabo voluptas veritatis ab minus quaerat incidunt necessitatibus!</p>
+                <aside>Artigo escrito por John Doe</aside>
+            </article>
+            <article>
+            </article>
+        </section>
+    </main>
+
+    <footer >
+        <p>Desenvolvido pelo curso em vídeo.</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

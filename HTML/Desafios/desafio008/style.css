@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.grey-area {
+    background-color: rgb(198, 194, 194);   
+}
+
+.greenpage {
+    background-color: rgb(118, 255, 118);
+    color: rgb(1, 74, 1);
+}
+
+.yellowpage {
+    background-color: rgb(255, 252, 159);
+    color: rgb(132, 123, 4);
+}
