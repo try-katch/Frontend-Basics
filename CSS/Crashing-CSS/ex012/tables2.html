@@ -12,6 +12,14 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
         }
 
         td, th {
@@ -20,12 +28,22 @@
         }
 
         thead, tfoot {
-            background-color: grey;
+            background-color: rgb(43, 43, 43);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(43, 43, 43);
         }
 
         td.num{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
         }
 
         #totalPopulacao {
@@ -42,6 +60,7 @@
         ANATOMIA PARA TABELAS GRANDES
 
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -52,9 +71,13 @@
 
 
     <table id="tabelaPopulacional">
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População (2022)</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">População (2022)</th>
+            </tr>
+            
         </thead>
 
         <tbody>
@@ -170,11 +193,67 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td id="totalPopulacao" >0</td>
             </tr>
         </tfoot>
     </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+            <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
+
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos voluptate ducimus molestiae sequi. Accusamus illo vel perspiciatis? Fuga consectetur vero voluptatem libero sed quod beatae accusamus quidem maxime repudiandae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad impedit cumque, consequatur modi unde vero. Natus, eos odio voluptatem doloribus autem suscipit placeat et corrupti, mollitia maxime nostrum blanditiis odit!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente totam suscipit placeat. Eius atque commodi veniam ut, minima debitis odio. Quasi animi atque nulla pariatur quod officia non repudiandae quaerat!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corrupti sapiente soluta laudantium repudiandae? Non iste dicta modi vitae! Inventore aperiam voluptates deserunt nobis quis pariatur repellendus nulla maxime recusandae.
+    </p>
 
 
     <!--
