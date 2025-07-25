@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="" method="get">
+        <p>
+            <label for="number1">Número 1: </label>
+            <input type="number" name="number1" id="number1" min="0" max="50" placeholder="0 a 50" required oninput="soma.innerHTML = Number(number1.value) + Number(number2.value)">
+        </p>
+        
+        <p>
+            <label for="number2">Número 2: </label>
+            <input type="number" name="number2" id="number2" min="0" max="50" placeholder="0 a 50" required oninput="soma.innerHTML = Number(number1.value) + Number(number2.value)">
+        </p>
+
+        <p>
+            <label for="soma">Soma: </label>
+            <output id="soma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
