@@ -34,15 +34,15 @@ header > h1 {
     color: rgb(0, 0, 30);
 }
 
-menu {
+nav {
     display: none;
 }
 
-menu > ul {
+nav > ul {
     list-style-type: none;
 }
 
-menu a {
+nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -52,7 +52,7 @@ menu a {
     border-top: 1px solid rgba(128, 128, 128, 0.132);
 }
 
-menu a:hover {
+nav a:hover {
     background-color: rgb(0, 0, 201);
 }
 
